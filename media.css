@@ -1,0 +1,611 @@
+@media (max-width: 600px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: orange;
+    }
+    
+    section{
+        width: 100%;
+        height: 100%;
+    
+    }
+    header{
+        width: 100%;
+        height: 80%;
+        background-image:linear-gradient(rgb(94, 91, 91), transparent), url("./img/img-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 2rem;
+    }
+    .had{
+        display: flex;
+        justify-content: space-between;
+        padding: 35px;
+        color: rgb(219, 216, 216);
+    }
+    .shop{
+        display: flex;
+        gap: 10px;
+    }
+    .had h3{
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bag{
+        display: flex;
+        gap: 9px;
+    }
+    .bag p:nth-child(2){
+        background-color: cadetblue;
+       width: 20px;
+       height: 20px;
+       border-radius: 50%;
+       padding: auto;
+    }
+    h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: 0;
+    color: rgb(224, 217, 208);
+    }
+    .all{
+        text-align: center;
+    }
+    .all button{
+        width: 6.5rem;
+        height: 1.5rem;
+        border-radius: 20px;
+    }
+    nav{
+        margin-bottom: 8rem;
+        display: none;
+        
+    }
+    
+    .imgs img{
+        width: 500px;
+        height: 270px;
+        
+    }
+    .imgs img:nth-child(1){
+        width:180px;
+        height: 150px;
+        position: relative;
+        left: 30px;
+        top: 100px;
+    }
+    .imgs img:nth-child(2){
+        width:250px;
+        height: 195px;
+        position: relative;
+        left: 340px;
+    }
+    .imgs img:nth-child(3){
+        width:130px;
+        height: 99px;
+        position: relative;
+        left: 500px;
+        top: 100px;
+    }
+    
+    
+    .lines{
+        text-align: center;
+    }
+    h4{
+        font-size: 3.2rem;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    .develop{
+        width: 500px;
+        margin-inline: auto;
+        font-size: 15px;
+        padding: 20px;
+      
+    
+    }
+    .lines button{
+        width: 11rem;
+        height: 2rem;
+        border-radius: 10px;
+        color: rgb(114, 110, 110);
+        background-color: rgb(247, 244, 244);
+        border: none;
+    }
+    
+    .imgs-2 img{
+        width: 400px;
+        height: 450px;
+    }
+    .imgs-2 img:nth-child(1){
+        width:370px;
+        height: 260px;
+        position: relative;
+        bottom: 11rem;
+    }
+    .imgs-2 img:nth-child(2){
+        width:330px;
+        height: 250px;
+        position: relative;
+        left: 360px;
+        bottom: 15px;
+        
+    }
+    .imgs-2 img:nth-child(3){
+        width:200px;
+        height: 170px;
+        position: relative;
+        left: 358px;
+        bottom: 18.5rem;
+    }
+    
+    
+    h2{
+        text-align: center;
+        padding: 10px;
+        font-size: 38px;
+    }
+    
+    .enjoy{
+        display: block;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 20px 0 20px 0;
+    }
+    
+    .inner-enjoy img{
+    width: 285px;
+    height: 290px;
+    }
+    .texs{
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        font-style: calc(2);
+    }
+    h3{
+        text-align: center;
+        padding: 20px;
+        font-size: 11px;
+    }
+    
+    .light{
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        padding: 20px 0 0 0;
+    }
+    .photos{
+        width: 100%;
+        height: 100%;
+        background-image: url(./img/img-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .inner-light{
+        width: 100%;
+        height: 100%;
+        color: rgb(121, 118, 118);
+        background-color: rgb(38, 54, 70);
+       
+    }
+    .inner-light-2{
+        width: 50%;
+        padding: 7rem 0 0 0 ;
+        margin-inline: auto;
+    
+        
+        
+    }
+    .inner-light-2 p:first-child{
+        font-size: 2rem;
+        padding: 1rem;
+        color: rgb(182, 174, 174);
+        
+    }
+    .inner-light-2 p:nth-child(2){
+        padding: 1rem;
+        font-size: 15px;
+    }
+    .inner-light-2 p:nth-child(3){
+        padding: 1rem;
+        font-size: 11px;
+    }
+    
+    .photos-2{
+        width: 100%;
+        height: 85vh;
+        background-image: url(./img/bg/curology-6CJg-fOTYs4-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    footer{
+        width: 100%;
+        height: 87vh;
+        display: block;
+        background-color: rgb(38, 54, 70);
+        color: rgb(177, 177, 177);
+    
+    }
+    .lookbook{
+        width: 4%;
+        height: 100%;
+    }
+    .lookbook p{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 34rem;
+        font-size: 1.7rem;
+    }
+    
+    .books{
+        width: 51%;
+        height: 100%;
+        padding: 3rem;
+    }
+    .books p{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 18rem;
+    }
+    .books .inner-books{
+       width: 67%;
+       margin-inline: auto;
+       
+    }
+    
+    
+    .items{
+        width: 45%;
+        height: 100%;
+        padding: 20px 0 10px 0;
+        
+    }
+    
+    .inner-items{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 15px 5px 15px;
+        font-size: 12px;
+        font-style:unset;
+    }
+    .items .inner-items-2{
+        height: 80%;
+        padding: 20px;
+    }
+    .items .inner-items-2 p{
+        width: 100%;
+        height: 100%;
+        background-image: url(./img/book.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: azure;
+    }
+    h5{
+        text-align: center;
+        padding: 20px;
+        font-size: 30PX;
+        background-color: rgb(38, 54, 70);
+        color: rgb(177, 177, 177);
+    }
+    aside{
+        padding: 0;
+        color: rgb(177, 177, 177);
+        background-color: rgb(38, 54, 70);
+    }
+    
+    
+    .chair{
+        display: flex;
+        /* padding: 15px; */
+        
+    }
+    
+    
+    .inner-chair-2 img{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        
+    }
+    .inner-chair{
+        display: block;
+        /* padding: 15px; */
+    }
+    .texs-2{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 12px;
+        font-style: calc(2);
+    }
+    
+    .shop-2{
+        text-align: center;
+        padding: 20px;
+        font-size: 11px;
+        color: rgb(177, 177, 177);
+        background-color: rgb(38, 54, 70);
+    }
+    main{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+    }
+    .line{
+        width: 4%;
+        height: 100%;
+        border-right: solid 1px rgb(146, 139, 139);
+    }
+    .line p{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 32rem;
+        font-size: 1.3rem;
+    }
+    
+    
+    .matter{
+        width: 96%;
+        height: 100%;
+        background-color: brow;
+        text-align: center;
+        padding: 6rem;
+    }
+    h6{
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        font-style: italic;
+    }
+    .man{
+        font-size: 14px;
+        padding: 20px;
+        margin-bottom: 1rem;
+       
+    }
+    .matter p{
+        width: 63%;
+        margin-inline: auto;
+        padding: 10px;
+        /* font-size: 14px; */
+    }
+    
+    form{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        gap: 1rem;
+    }
+    .data{
+        width:4% ;
+        height: 100%;
+        background-color: brown;
+    }
+    .one{
+        width:66% ;
+        height: 100%;
+        padding: 10px;
+    }
+    .one img{
+        width: 100%;
+        height: 100%;
+    }
+    .two{
+        width:30% ;
+        height: 100%;
+        border-left: solid 1px rgb(146, 139, 139);
+        gap: 1rem;
+       
+    }
+    
+    
+    .inner-two1{
+        width:100% ;
+        height: 44%;
+        padding: 10px;
+    }
+    .inner-two2{
+        width:100% ;
+        height: 56%;
+        padding: 10px;
+    }
+    .inner-two1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .inner-two2 img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .photos-4{
+        width: 100%;
+        height: 85vh;
+        background-image: url(./img/IMG_20230523_140557.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: ;
+    }
+    
+    .articles{
+        text-align: center;
+        padding: 20px;
+        font-size: 30PX;
+    }
+    
+    .foot{
+        width: 100%;
+        height: 73vh;
+        display: flex;
+    }
+    .lookbook-6{
+        width: 4%;
+        height: 100%;
+    }
+    .lookbook-6 p{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 29rem;
+        font-size: 1.3rem;
+    }
+    .ead{
+        margin-top: 2.5rem;
+        font-size: 12px;
+        padding: 5px;
+    }
+    
+    .books-6{
+        width: 51%;
+        height: 100%;
+        padding: 2rem;
+    }
+    .books-6 p{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 6rem;
+        padding: 8px;
+        font-style: italic;
+    }
+    
+    .items-1{
+        width: 45%;
+        height: 100%;
+        padding: 15px;
+    }
+    .items-2{
+        width: 100%;
+        height: 100%;
+        background-image: url(./img/IMG_20230523_140948.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .end{
+        width: 100%;
+        height: 80vh;
+        display: block;
+        gap: 1.5rem;
+        padding:0 10px 0 10px;
+    }
+    .home{
+        width: 100%;
+        height: 55%;
+        padding: 10px;
+    }
+    .set{
+        font-size: 24px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .inner-end{
+        border-right: solid 1px rgb(146, 139, 139);
+    }
+    .inner-end:last-child{
+        border: none;
+    }
+    .inner-end p{
+    padding: 5px;
+    }
+    .inner-end img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .club{
+        width: 100%;
+        height: 95vh;
+        padding: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .be-club{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #ffff ;
+        background-image: url(./img/IMG_20230523_140855.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .be-club p{
+        font-size: 3.2rem;
+        margin-top: 12rem;
+        margin-bottom: 1.8rem;
+    }
+    input{
+        width: 25%;
+        height: 2.5rem;
+        border-radius: 10px;
+        padding: 5px;
+        background: rgb(207, 207, 207);
+    }
+    
+    .store{
+        display: flex;
+        width: 100%;
+        height: 20vh;
+        color: rgb(177, 177, 177);
+        background-color: rgb(38, 54, 70);
+    
+    }
+    .store-2{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .help{
+        width: 100%;
+        height: 100%;
+        padding: 10px 5px 5px 30px;
+        border-right: solid 1px rgb(146, 139, 139);
+        font-size: 13px;
+    }
+    .help p{
+        padding: 5px;
+    }
+    .arusa-2{
+        width: 100%;
+        height: 38vh;
+        color: rgb(236, 233, 233);
+        background-color: rgb(38, 54, 70);
+        text-align: center;
+        /* font-size: 18rem; */
+       
+    }
+    .lass-2{
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+       
+    }
+    .shop-4{
+        text-align: center;
+        padding: 10px;
+        font-size: 11px;
+        color: rgb(177, 177, 177);
+        background-color: rgb(38, 54, 70);
+    }
+    
+
+}
